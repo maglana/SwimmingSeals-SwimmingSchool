@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		/>
+		<title>SwimmingSeals</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="./index.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/fac08909fe.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body
+		data-bs-spy="scroll"
+		data-bs-target="#navId"
+	>
+		<nav
+			id="navId"
+			class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3"
+		>
+			<div class="container">
+				<a
+					class="navbar-brand d-flex align-items-center"
+					href="#"
+				>
+					<img
+						src="./img/seal.svg"
+						alt="Logo Swimming Seals"
+						class="logo-img me-2"
+					/>
+					<span>Swimming<span class="blue-text">Seals</span></span>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarNavAltMarkup"
+				>
+					<div class="navbar-nav ms-auto">
+						<a
+							class="nav-link active"
+							href="#home"
+							>Home</a
+						>
+						<a
+							class="nav-link"
+							href="#aboutus"
+							>o nas</a
+						>
+
+						<a
+							class="nav-link"
+							href="#prices"
+							>ceny</a
+						>
+						<a
+							class="nav-link"
+							href="#team"
+							>trener</a
+						>
+						<a
+							class="nav-link"
+							href="#achievements"
+							>osiągnięcia trenera</a
+						>
+						<a
+							class="nav-link"
+							href="#contact"
+							>kontakt</a
+						>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header
+			class="hero-img"
+			id="home"
+		>
+			<div class="hero-text text-center p-2">
+				<h1
+					data-aos="fade-up"
+					data-aos-delay="200"
+				>
+					Witajcie w Swimming<span class="blue-text">Seals</span>
+				</h1>
+				<p
+					data-aos="fade-up"
+					data-aos-delay="400"
+				>
+					w miejscu gdzie pływamy z pasją
+				</p>
+				<a
+					data-aos="fade-up"
+					data-aos-delay="600"
+					href="#aboutus"
+					class="btn btn-outline-light mt-2 text-uppercase"
+					>Poznaj nas</a
+				>
+			</div>
+			<div class="hero-shadow"></div>
+			<a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+		</header>
+		<main>
+			<section
+				id="aboutus"
+				class="aboutus bg-light py-5"
+			>
+				<div class="container">
+					<h2 class="section-title">o nas</h2>
+					<div class="underline"></div>
+
+					<p>
+						Nauka pływania Swimming Seals prowadzę zajęcia zarówno dla dzieci,
+						jak i dorosłych, dostosowane do wszystkich poziomów umiejętności.
+						Nasze lekcje obejmują zarówno naukę podstaw pływania, jak i
+						doskonalenie techniki oraz rozwijanie już posiadanych zdolności.
+						Każdy, bez względu na wiek czy stopień zaawansowania, może opanować
+						sztukę pływania w prawidłowy sposób.
+					</p>
+				</div>
+			</section>
+
+			<section
+				id="prices"
+				class="prices py-5 bg-light"
+			>
+				<h2 class="section-title">Ceny</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="price-wrap row text-center justify-content-center">
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Zajęcia indywidualne</p>
+								<hr />
+
+								<p><span>Dni tygodnia: </span>codziennie</p>
+								<p><span>Dzieci: </span>Tak</p>
+								<p><span>Dorośli: </span>Tak</p>
+								<p class="price-tag">689zł</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Zajęcia grupowe</p>
+								<hr />
+								<p><span>Dni tygodnia: </span>codziennie</p>
+								<p><span>Dzieci: </span>Tak</p>
+								<p><span>Dorośli: </span>Tak</p>
+								<p class="price-tag">3599zł</p>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4">
+							<div class="price-box">
+								<p class="price-title">Areobik</p>
+								<hr />
+								<p><span>Dni tygodnia: </span>codziennie</p>
+								<p><span>Dzieci: </span>Tak</p>
+								<p><span>Dorośli: </span>Tak</p>
+								<p class="price-tag">5599zł</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				id="team"
+				class="team py-5"
+			>
+				<div class="container">
+					<h2 class="section-title text-uppercase text-center mb-4">Trener</h2>
+					<div class="underline mx-auto"></div>
+
+					<!-- Układ zawierający zdjęcie po lewej stronie i tekst po prawej stronie -->
+					<div class="row align-items-center mt-5">
+						<!-- Zdjęcie trenera -->
+						<div class="col-lg-6 col-md-12">
+							<div class="trainer-img-container">
+								<img
+									src="./img/Krzysztof.jpg"
+									class="trainer-img img-fluid rounded"
+									alt="Zdjęcie trenera Krzysztofa Maksymowicza"
+								/>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
+							<div class="trainer-info p-4 bg-white">
+								<h5 class="card-title text-uppercase">Krzysztof Maksymowicz</h5>
+								<p class="card-text">
+									Jestem 21 letnim triathlonistą związanym ze sportem od
+									najmłodszych lat. Będąc jeszcze nastolatkiem odkryto we mnie
+									talent, a obecnie jestem jednym z czołowych zawodników na
+									polskiej scenie triathlonu. Oprócz predyspozycji istotny wpływ
+									na moją sportową karierę odegrała edukacja w Szkołach
+									Mistrzostwa Sportowego w Warszawie oraz Świdnicy. Zdobyte
+									przez ostatnie lata tytuły mistrzowskie na poziomie krajowym i
+									Europejskim zachęciły mnie do udziału w rywalizacji z
+									czołowymi zawodnikami z całego globu na tegorocznej serii
+									Mistrzostw Świata Triathlonu WTCS.
+								</p>
+								<a
+									href="#contact"
+									class="btn btn-primary mt-3"
+									>Skontaktuj się</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section
+				class="achievements py-5"
+				id="achievements"
+			>
+				<h2 class="section-title">osiągnięcia trenera</h2>
+				<div class="underline"></div>
+
+				<div class="container">
+					<div class="row text-center achievements-list">
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="100"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">2023 - II miejsce</p>
+							<p class="achievement-text">Mistrzostwa Polski IRONMAN 70.3.</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="50"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">2022 - I miejsce</p>
+							<p class="achievement-text">Mistrzostwa Czech IRONMAN</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="200"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">2019 - II miejsce</p>
+							<p class="achievement-text">
+								Mistrzostwa Polski w Sprincie juniorów
+							</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="250"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">2019 - II miejsce</p>
+							<p class="achievement-text">zrealizownych projektów</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="100"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">19 - IV miejsce</p>
+							<p class="achievement-text">
+								Mistrzostwa Europy w Sprincie juniorów
+							</p>
+						</div>
+						<div
+							class="col-md-6 col-lg-4 col-xl-2"
+							data-aos="zoom-in"
+							data-aos-delay="300"
+						>
+							<i class="fas fa-trophy"></i>
+							<p class="achievement-number">2018 - I miejsce</p>
+							<p class="achievement-text">
+								Mistrzostwa Polski w Aquathlonie juniorów
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				id="contact"
+				class="contact py-5"
+			>
+				<h2 class="section-title">kontakt</h2>
+				<div class="underline"></div>
+				<div class="contact-shadow"></div>
+
+				<div class="container">
+					<div class="row text-center contact-us">
+						<div class="col-sm-6 col-lg-4 contact-item order-1">
+							<h3>główna siedziba</h3>
+							<p>ul. Jadodowa 20</p>
+							<p>87-100 Toruń</p>
+							<p>+48 500 000 000</p>
+							<p>m.srutkowska@gmail.com</p>
+						</div>
+
+						<div class="col-lg-4 order-0 order-lg-1">
+							<h3>social media</h3>
+							<div class="social-media">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4 contact-item order-1">
+							<h3>siedziba w Danii</h3>
+							<p>Wall Street 234B</p>
+							<p>10-501 Dania</p>
+							<p>+48 500 000 000</p>
+							<p>m.srutkowska@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-dark text-light py-4 text-center">
+			<p class="mb-0">&copy; 2024 | SwimmingSeals</p>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="./JS/aos.js"></script>
+		<script src="./JS/index.js"></script>
+	</body>
+</html>
